@@ -1,0 +1,271 @@
+/* -- Set fonts --*/
+
+@font-face {
+  font-family: 'ProximaNova';
+  src: url(ProximaNova-Reg.otf);
+}
+
+@font-face {
+  font-family: 'ProximaNova-Light';
+  src: url(ProximaNova-Light.otf);
+}
+
+@font-face {
+  font-family: "Baron";
+  src: url(baron-neue-bold-italic.otf);
+}
+
+/* --  Styling  -- */
+
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+}
+
+#header {
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  height: 1%;
+  font-family: "ProximaNova-Light";
+  color: #FFF;
+  text-align: center;
+  margin-top: -21px;
+
+}
+
+.titles {
+  padding-top: 87px;
+}
+
+.titles h1 {
+  font-size: 50px;
+  letter-spacing: 8px;
+}
+
+.icon-align-left {
+  padding-top: 20px;
+  position: absolute;
+  top: 5px;
+  left: 25px;
+}
+
+.icon-align-left:hover {
+  color: #e74c3c;
+  cursor: pointer;
+}
+
+.header-menu {
+  position: relative;
+  display: none;
+  z-index: 1;
+  background-color: #3498db;
+}
+
+.header-menu a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.header-menu a h3:hover {
+  color: #bdc3c7;
+  /*border-bottom: 3px solid #fff;
+  border-top: 3px solid #fff;*/
+}
+
+.menu-choices {
+  padding: 20px 0px;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+#footer {
+  
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ), url("footer.jpg");
+  background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  font-family: "ProximaNova-Light";
+  color: #FFF;
+  text-align: center;
+  bottom: 0;
+}
+
+#footer h4 {
+  padding-top: 45px;
+  width: 90%;
+  font-size: 20px;
+  font-family: "ProximaNova"
+}
+
+#footer a {
+  display: block;
+  padding-bottom: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer a:hover{
+  text-decoration: underline;;
+}
+
+.archives-menu {
+  position: relative;
+  bottom: 3vh;
+  display: none;
+  z-index: 1;
+  background-color: #3498db;
+}
+
+#main-content {
+  /*background-color: #95a5a6;*/
+  height: 50%;
+  padding: 0 20px;
+  font-family: "ProximaNova"
+}
+
+
+#post-1-modal {
+  display: none;
+}
+
+#main-content h4 {
+  font-family: "Baron";
+  font-size: 10px;
+  display: inline-block;
+}
+
+#main-content h4:nth-of-type(2n) {
+  float: right;
+}
+
+hr {
+  background-color: #fff;
+  border-top: 2px dashed #DADFE1;
+  display: block;
+  height: 1px;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.header-right {
+  display: none;
+  background-color: #3498db;
+  padding: 20px;
+  margin-bottom: -16px;
+}
+
+.header-right a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-right a:hover {
+  color: #bdc3c7;  
+}
+
+.icon-align-right {
+  cursor: pointer;
+  float: right;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+
+.military-list {
+  display: none;
+}
+
+.crossfit-list {
+  display: none;
+}
+.geographic-location {
+  display: none;
+}
+.us-classes, .canada-classes, .mexico-classes, .europe-classes, .australia-classes, .me-classes, .china-classes, .africa-classes, .central-classes {
+  text-align: left;
+  display: none;
+}
+
+#dialog-1, #dialog-2, #dialog-3, #dialog-4, #dialog-5, #dialog-6, #dialog-7, #dialog-8, #dialog-9, #dialog-10, #dialog-11, #dialog-12, #dialog-13, #dialog-14, #dialog-15 {
+  display: none;
+}
+
+#dialog-1, #dialog-2 p:not(:nth-of-type(5n+1)),#dialog-3 p:not(:nth-of-type(5n+1)), #dialog-4 p:not(:nth-of-type(5n+1)), #dialog-5 p:not(:nth-of-type(5n+1)), #dialog-6 p:not(:nth-of-type(5n+1)), #dialog-7 p:not(:nth-of-type(5n+1)), #dialog-8 p:not(:nth-of-type(5n+1)), #dialog-9 p:not(:nth-of-type(5n+1)), #dialog-10 p:not(:nth-of-type(5n+1)), #dialog-11 p:not(:nth-of-type(5n+1)), #dialog-12 p:not(:nth-of-type(5n+1)), #dialog-13 p:not(:nth-of-type(5n+1)), #dialog-14 p:not(:nth-of-type(5n+1)), #dialog-15 p:not(:nth-of-type(5n+1)) {
+  text-align: left;
+  padding: 10px 15px;
+}
+
+#dialog-1 h4, #dialog-2 h4, #dialog-3 h4, #dialog-4 h4, #dialog-5 h4, #dialog-6 h4, #dialog-7 h4, #dialog-8 h4, #dialog-9 h4, #dialog-10 h4, #dialog-11 h4, #dialog-12 h4, #dialog-13 h4, #dialog-14 h4, #dialog-15 h4 {
+  font-family: "Baron";
+  font-size: 10px;
+  display: inline-block;
+}
+
+#dialog-1 h4:nth-of-type(2n), #dialog-2 h4:nth-of-type(2n), #dialog-3 h4:nth-of-type(2n), #dialog-4 h4:nth-of-type(2n), #dialog-5 h4:nth-of-type(2n), #dialog-6 h4:nth-of-type(2n), #dialog-7 h4:nth-of-type(2n), #dialog-8 h4:nth-of-type(2n), #dialog-9 h4:nth-of-type(2n), #dialog-10 h4:nth-of-type(2n), #dialog-11 h4:nth-of-type(2n), #dialog-12 h4:nth-of-type(2n), #dialog-13 h4:nth-of-type(2n), #dialog-14 h4:nth-of-type(2n), #dialog-15 h4:nth-of-type(2n) {
+  display: block;
+  float: right;
+  padding-right: 50px;
+}
+
+#dialog-1 img, #dialog-2 img, #dialog-3 img, #dialog-4 img, #dialog-5 img, #dialog-6 img, #dialog-7 img, #dialog-8 img, #dialog-9 img, #dialog-10 img, #dialog-11 img, #dialog-12 img, #dialog-13 img, #dialog-14 img, #dialog-15 img {
+  width: 290px;
+}
+
+#dialog-2 h4:nth-of-type(2n) {
+  float: right;
+  padding-right: 50px;
+}
+
+#main-content div h2:hover {
+  color: #34495e;
+  cursor: pointer;
+}
+
+.ui-dialog {
+  text-align: center;
+  background-color: whitesmoke;
+  border-radius: 4px;
+  opacity: .95;
+  font-family: "ProximaNova";
+  left: 3px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,.7);
+}
+
+.ui-dialog-titlebar-close {
+  visibility: hidden;
+}
+
+.ui-button {
+  border: 0;
+  background-color: #2ecc71;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.icon-up-open-big {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  padding: 7px;
+}
+
+.icon-up-open-big:hover {
+  color: #888;
+  border: 2px solid #888;
+  border-radius: 50%;
+  padding: 7px;
+  cursor: pointer;
+}
+
