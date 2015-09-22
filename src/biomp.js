@@ -19,19 +19,19 @@ window.bioMp = function(el, options) {
 	function setSizes() {
 		var selView = (view == 'front') ? front : side;
 		
-		if(scale != 0) {
+		if(scale !== 0) {
 			width = (selView.width * scale);
 			height = (selView.height * scale);
 			return;
 		}
 		
-		if(width != 0) {
+		if(width !== 0) {
 			scale = (width / selView.width);
 			height = (width / selView.ratio);
 			return;
 		}
 		
-		if(height != 0) {
+		if(height !== 0) {
 			scale = (height / selView.height);
 			width = (height * selView.ratio);
 			return;
@@ -97,4 +97,4 @@ window.bioMp = function(el, options) {
 	// Init
 	setSizes();
 	create();
-}
+};

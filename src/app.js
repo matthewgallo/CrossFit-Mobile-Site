@@ -1,11 +1,10 @@
 $( document ).ready(function(){
   // iPhone preview
-  bioMp($("#preview"), {
-    url: "http://matthewgallo.github.io/CrossFit-Mobile-Site/",
-    view: "left",
-    image: "assets/iphone6_side_left_black.png"
-  });
-
+  // bioMp($("#preview"), {
+  //   url: "http://matthewgallo.github.io/CrossFit-Mobile-Site/",
+  //   view: "left",
+  //   image: "assets/iphone6_side_left_black.png"
+  // });
 
 // Toggle drop down menu for site navigation
   $(".icon-align-left").click(function(){

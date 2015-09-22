@@ -54,9 +54,23 @@ html {
   position: absolute;
   top: 5px;
   left: 25px;
+  font-size: 40px;
 }
 
 .icon-align-left:hover {
+  color: #e74c3c;
+  cursor: pointer;
+}
+
+.icon-align-right {
+  float: right;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  font-size: 40px;
+}
+
+.icon-align-right:hover {
   color: #e74c3c;
   cursor: pointer;
 }
@@ -174,14 +188,6 @@ hr {
 
 .header-right a:hover {
   color: #bdc3c7;  
-}
-
-.icon-align-right {
-  cursor: pointer;
-  float: right;
-  position: absolute;
-  top: 25px;
-  right: 25px;
 }
 
 .military-list {
