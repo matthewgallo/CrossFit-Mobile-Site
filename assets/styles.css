@@ -82,9 +82,11 @@ html {
   background-color: #3498db;
 }
 
-.header-menu a {
+.header-menu a, .header-menu h2 {
   text-decoration: none;
   color: #FFF;
+  text-align: center;
+  font-family: "ProximaNova-Light";
 }
 
 .header-menu a h3:hover {
@@ -178,7 +180,12 @@ hr {
   display: none;
   background-color: #3498db;
   padding: 20px;
-  margin-bottom: -16px;
+  font-family: "ProximaNova-Light";
+  text-align:center;
+}
+
+.geographic-location div, .archives-menu label, .crossfit-list h3, .military-list h3 {
+  color: #fff;
 }
 
 .header-right a {
