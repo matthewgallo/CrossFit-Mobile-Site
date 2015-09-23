@@ -6,13 +6,22 @@ $( document ).ready(function(){
   //   image: "assets/iphone6_side_left_black.png"
   // });
 
+
 // Toggle drop down menu for site navigation
   $(".icon-align-left").click(function(){
+    $(".header-right").slideUp("slow");
+    $(".active").removeClass("active");
     $(".header-menu").toggle("slow");
+    $(this).toggleClass("active");
+    return false;
   });
 
   $(".icon-align-right").click(function(){
+    $(".header-menu").slideUp("slow");
+    $(".active").removeClass("active");
     $(".header-right").toggle("slow");
+    $(this).toggleClass("active");
+    return false;
   });
 
 // Inner toggles
